@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Calculator Project</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="theme__num">
+				<span>1</span>
+				<span>2</span>
+				<span>3</span>
+			</div>
+			<nav>
+				<h2>calc</h2>
+				<h5>THEME</h5>
+				<div class="toggle__theme">
+					<div class="toggle__container">
+						<button class="theme__btn active" data-theme="1"></button>
+						<button class="theme__btn" data-theme="2"></button>
+						<button class="theme__btn" data-theme="3"></button>
+					</div>
+				</div>
+			</nav>
+			<div class="screen__container">
+				<h1></h1>
+			</div>
+			<div class="attribution">
+				Challenge by
+				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+				Coded by <a href="https://kingjoshua.netlify.app">KingJoshua</a>.
+			</div>
+			<div class="keypad__container">
+				<div class="first__section">
+					<button class="btn" data-num="7">7</button>
+					<button class="btn" data-num="8">8</button>
+					<button class="btn" data-num="9">9</button>
+					<button class="del" data-num="DEL">DEL</button>
+				</div>
+				<div class="second__section">
+					<button class="btn" data-num="4">4</button>
+					<button class="btn" data-num="5">5</button>
+					<button class="btn" data-num="6">6</button>
+					<button class="btn" data-num="+">+</button>
+				</div>
+				<div class="third__section">
+					<button class="btn" data-num="1">1</button>
+					<button class="btn" data-num="2">2</button>
+					<button class="btn" data-num="3">3</button>
+					<button class="btn" data-num="-">-</button>
+				</div>
+				<div class="fourth__section">
+					<button class="btn" data-num=".">.</button>
+					<button class="btn" data-num="0">0</button>
+					<button class="btn" data-num="/">/</button>
+					<button class="btn" data-num="*">x</button>
+				</div>
+
+				<div class="last__section">
+					<button class="reset">RESET</button>
+					<button class="equal">=</button>
+				</div>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
